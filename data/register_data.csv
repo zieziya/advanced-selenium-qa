@@ -1,0 +1,9 @@
+firstname,lastname,username,password,expected,description
+Budi,Santoso,budi123,Test@123,PASS,Data valid
+Andi,Wijaya,,Test@123,FAIL,Username kosong
+Siti,Rahma,siti123,,FAIL,Password kosong
+Dewi,Lestari,dewi123,12345,FAIL,Password terlalu pendek
+Rudi,Hartono,rudi123,Test123,PASS,Password valid minimum
+Ani,Putri,admin,Test@123,FAIL,Username sudah dipakai
+Fajar,Nugraha,fajar123,abcdefg,FAIL,Tidak memenuhi aturan password
+Tono,Saputra,tono12345,Password123,PASS,Data valid kedua
